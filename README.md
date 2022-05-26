@@ -1,5 +1,5 @@
 # SO-2022-Parcial
-## Alumno: APELLIDO, Nombre
+## Alumno: Recalde, Alejandro
 
 1) 
 
