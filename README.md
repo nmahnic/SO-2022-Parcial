@@ -48,6 +48,9 @@
     - gcc = es el compilador de C
     - htop = es el administrador de tarea, te muestra los procesos que se estan ejecutando en vivo
     - ps -ely = es una impresion de los procesos que se estan ejecutando
+    - kill = es para mandar una señal que sirve para cerrar un proceso
+        - kill -15 "PDI proceso" : envia una señal de cierre no forzado, pide "permiso" para terminar el proceso
+        - kill -9 "PDI proceso": envia una señal para cerrar determinadamente el proceso.
 
     [screen: punto9_...]
 
