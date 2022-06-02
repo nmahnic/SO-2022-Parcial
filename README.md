@@ -14,7 +14,7 @@
     El usuario, mediante el teclado (hardware), manda la indicacion al sistema operativo para abrir un archivo. El SO envia la señal a la memoria RAM para que abra un espacio y este le pide al storage la pila (en primer lugar), variantes y codigo del archivo solicitado y pueda pasar a "ready" y asi empezar a actuar.
 
 
-6) ### ¿Porque Assembler fue reemplazado por C?
+6) ### ¿Porque `Assembler` fue reemplazado por `C`?
 
     Esto se debio a que, en Assembler, su codigo fue escrito para cada procesador en especifico, y a la hora de salir un nuevo procesador, tenian que hacer de nuevo todo el codigo del sistema operativo, uno para cada procesador. A esta solucion aparecio C, que es un lenguaje de bajo nivel, al igual que Assembler, pero cuenta con un compilador para cada procesador, generando que sea el mismo codigo en C para todos los procesadores, solo lo que cambiaria seria el compilador.  
     
@@ -29,33 +29,43 @@
 
     [screen: dev.png y dev-las.png]
 
-9) ### Nombre algunos comandos basicos de la terminal de Linux
+9) ### Nombre algunos comandos basicos de la terminal de `Linux`
 
-    cd = sirve para moverse dentro de los directorios
-        cd .. = es para dirigirse un directorio para arriba  
-        cd - = es para volver al ultimo un directorio
-    ls = sirve para listar el directorio donde estas parado y mostrar su contenido
-        ls -las= te muestra no solo los atchivos y directorios de donde estas, si no sus caracteristicas
-        ls -a = te muestra tambien los archivos ocultos
-    mkdir = sirve para crear un directorio nuevo}
-    mv = sirve para mover de un directorio a otro un archivo o cambiarle el nombre
-    rm = sirve para borrar un directorio vacio o archivo
-    rmd = sirve para borrar un directorio completo
-    nano = sirve para editar un archivo, si no existe crea uno con el nombre solicitado
-    gcc = es el compilador de C
-    htop = es el administrador de tarea, te muestra los procesos que se estan ejecutando en vivo
-    ps -ely = es una impresion de los procesos que se estan ejecutando
+    - cd = sirve para moverse dentro de los directorios
+        - cd .. = es para dirigirse un directorio para arriba  
+        - cd - = es para volver al ultimo un directorio
+    - ls = sirve para listar el directorio donde estas parado y mostrar su contenido
+        - ls -las= te muestra no solo los atchivos y directorios de donde estas, si no sus caracteristicas
+        - ls -a = te muestra tambien los archivos ocultos
+    
+    - mkdir = sirve para crear un directorio nuevo
+    
+    - mv = sirve para mover de un directorio a otro un archivo o cambiarle el nombre
+    
+    - rm = sirve para borrar un directorio vacio o archivo
+    -rmd = sirve para borrar un directorio completo
+    - nano = sirve para editar un archivo, si no existe crea uno con el nombre solicitado
+    - gcc = es el compilador de C
+    - htop = es el administrador de tarea, te muestra los procesos que se estan ejecutando en vivo
+    - ps -ely = es una impresion de los procesos que se estan ejecutando
 
     [screen: punto9_...]
 
-10) ### Ejemplifique como subir un repositorio a GitHub desde consola
+10) ### Ejemplifique como subir un repositorio a `GitHub` desde consola
 
-    Primer paso: se crea un repositorio en GitHub
-    Segundo paso: el repositorio nos entrega una url
-    Tercer paso: hacemos git clone "url" - esto crea la carpeta del repositorio en nuestra maquina
-    Cuarto paso: una vez finalizada nuestra tarea ponemos git add . - guarda todos los archivos para subirlos a la nube
-    Quinto paso: git commit "..." hacemos un comentario explicando lo que hicimos
-    Sexto paso: git push origin master - "pusheamos" o subimos lo que hicimos a nuestro repositorio en GitHub, si lo subimos a un repo que no creamos nosotros, en vez de MASTER iria MAIN
+    `Primer paso`= se crea un repositorio en GitHub
+
+    `Segundo paso`= el repositorio nos entrega una url
+
+    `Tercer paso`= hacemos git clone "url" - esto crea la carpeta del repositorio en nuestra maquina
+
+    `Cuarto paso`= una vez finalizada nuestra tarea ponemos git add . - guarda todos los archivos para subirlos a la nube
+        con git status muestra el estado de los archivos, en verde si los archivos fueron agregados, en rojo no
+    
+    `Quinto paso`= git commit "..." hacemos un comentario explicando lo que hicimos
+    
+    `Sexto paso`= git push origin master - "pusheamos" o subimos lo que hicimos a nuestro repositorio en GitHub, si lo subimos a un repo que no creamos nosotros, en vez de MASTER iria MAIN
+        Nos va a pedir nombre de usuario y contraseña/token para subirlo
     
 
     [screen: punto10_...]
