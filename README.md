@@ -19,6 +19,7 @@
 
 - Por ultimo con el comando git push -u origin main subimos el archivo o cambios que hicimos a nuestro repositorio -> '../screen/git-push.png'
 - Entramos a github y verificamos nuestros cambios -> '../screen/verificacion.png'
+*Bien 1*
 
 ### 2) ¿Que podemos ver con el comando ps -ely?
 
@@ -30,10 +31,12 @@
     - C: El uso del CPU.
     - PRI: La prioridad de los procesos.
     - CMD: El comando ejecutado para crear el proceso.
+*Bien 1*
 
 ### 3) ¿Que recursos administra el SO?
 
 - Los recursos que administra el Sistema Operativo son el CPU, la Memoria y los dispositivos de Entrada y Salida
+*Simple pero correcto, 0,25*
 
 ### 4) Explique los siguientes comandos de linux: mkdir, cd y ls.
 
@@ -41,6 +44,7 @@
 - cd: Nos permite poder navegar entre directorios. 
 - ls: Nos lista todos los directorios/archivos que tenemos dentro de donde estamos parados
 - A continuacion podemos ver estos tres comando en uso -> '../screen/comandos.png'
+*Bien 1*
 
 ### 5) "Every is a File". ¿Donde podemos encontrar a los dispositivos de Entradas y Salidas? ¿Como podemos acceder a ellos?
 
@@ -56,25 +60,33 @@
     - IOCTL: Accedemos a su configuracion.
     
     - CLOSE: Una vez que terminamos lo devolvemos y liberamos el recurso usado.
+*Bien 1*
 
 ### 6) ¿Que hace la CPU?
 
 - La CPU lo que hace, a travez de 0 y 1 es recibir y ejecutar operaciones. Y es la unica en ejecutar procesos.
+*Simple pero correcto, se puede desarrollar más 0.25*
 
 ### 7) ¿Porque no se pueden subir archivos compilados a git?
 
 - No se pueden subir archvios compilados a git porque donde se compila ese archivo, es decir, en la computadora que lo hace no va a ser igual a ninguna otra. Lo que pasaria si bajamos ese archivo es que no nos funcione. Ademas este seria muy pesado.
+*La razón princial esta mal explicada 0*
 
 ### 8) ¿Quienes son los usuario de los recursos del SO?
 
 - Los usuarios de estos recursos son los procesos o tareas. Estos son los programas que se encuentran ejecutando en la memoria del sistema.
+*Bien 1*
 
 ### 9) ¿Que es htop?
 
 - Htop es un programa que se ejecuta directamente de la consola de linux, este nos muestra los procesos que estan corriendo en el sistema operativo en tiempo real. -> '../screen/htop.png'
+*Bien, pregunta algo simple 0,5*
 
 ### 10) Enumere los espacio que hay en la memoria:
 
 - Pila.
 - Codigo.
 - Datos
+*Bien pero simple 0,25*
+
+*Tiene manejo de los conceptos y uso de la consola, APROBADO, 6*
