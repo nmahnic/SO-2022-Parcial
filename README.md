@@ -12,15 +12,17 @@
 5) ### ¿Como es el proceso de abrir un archivo?
 
     El usuario, mediante el teclado (hardware), manda la indicacion al sistema operativo para abrir un archivo. El SO envia la señal a la memoria RAM para que abra un espacio y este le pide al storage la pila (en primer lugar), variantes y codigo del archivo solicitado y pueda pasar a "ready" y asi empezar a actuar.
-
+*Si bien faltan pasos es medianamente correcto 0,5*
 
 6) ### ¿Porque `Assembler` fue reemplazado por `C`?
 
     Esto se debio a que, en Assembler, su codigo fue escrito para cada procesador en especifico, y a la hora de salir un nuevo procesador, tenian que hacer de nuevo todo el codigo del sistema operativo, uno para cada procesador. A esta solucion aparecio C, que es un lenguaje de bajo nivel, al igual que Assembler, pero cuenta con un compilador para cada procesador, generando que sea el mismo codigo en C para todos los procesadores, solo lo que cambiaria seria el compilador.  
+*Bien 1*
     
 7) ### ¿Porque no es optimo subir a GitHub un archivo compilado?
 
     No es optimo subir en GitHub un archivo compilado, debido a, como aclaramos en el punto 6, cada procesador tiene su compilador, esto hace que cada computadora sea distinta y no corra el mismo programa en todas las computadoras, ya que estas pueden tener distintos sistemas operativos. Tambien el archivo compilado es muy pesado debido a que tiene varias bibliotecas instaladas. Por esto, lo mas optimo es subir solo el archivo sin compilar, para ser mas liviano y que cada usuario pueda compilar el archivo en su sistema operativo y con su procesador designado.
+*Bien, parcialmente, la cuestion es si tiene el mismo procesador 0,5*
 
 8) ### ¿Que significa que "TODO ES UN ARCHIVO"?
 
@@ -28,6 +30,7 @@
     Se puede ver esto entrando a los dev donde estan todo esto en forma de archivos.
 
     [screen: dev.png y dev-las.png]
+*Bien 1*
 
 9) ### Nombre algunos comandos basicos de la terminal de `Linux`
 
@@ -53,6 +56,7 @@
         - kill -9 "PDI proceso": envia una señal para cerrar determinadamente el proceso.
 
     [screen: punto9_...]
+*Bien 1*
 
 10) ### Ejemplifique como subir un repositorio a `GitHub` desde consola
 
@@ -72,3 +76,6 @@
     
 
     [screen: punto10_...]
+*Bien 1*
+
+*Si bien falta manejo de algunos concpetos supiste demostrar los conocimientos del uso de consola, APROBADO, 5*
